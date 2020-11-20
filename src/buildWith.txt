@@ -1,0 +1,9 @@
+TIK TOK CLONE
+
+Material UI
+Firebase (hosting, database)
+CSS hacks
+  Flexbox
+  Snap functionality
+3rd party
+UseRef hooks

@@ -19,7 +19,14 @@ html {
   transition: 0.5s;
   /* scrollling snap events to different points */
   scroll-snap-type: y mandatory;
-
+  border: 5px solid white;
+  /* padding: 0px; */
+  /* margin: 0; */
+  border: none;
+}
+.app__videos::before {
+  content: '';
+  background-color: red;
 }
 
 /* Hide scrollbar for Chrome, Safari, and Opera */
@@ -38,6 +45,5 @@ html {
   }
   .app__videos {
     height: 600px;
-    width: 70%;
   }
 } 

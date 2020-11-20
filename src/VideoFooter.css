@@ -54,3 +54,15 @@
     width: 300px;
   }
 }
+@media screen and (max-width: 400px) {
+  .videoFooter {
+    bottom: 200px;
+  }
+  .videoFooter__text > p {
+    width: 200px;
+    font-size: 0.8em;
+  }
+  .videoFooter__ticker > .ticker {
+    width: 50%;
+  }
+}

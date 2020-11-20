@@ -18,3 +18,12 @@
   margin: 0;
   border: none;
 }
+@media screen and (max-width: 300px) {
+  .video {
+    width: 100%;
+  }
+  .video__player {
+    height: 80%;
+    width: 100%;
+  }
+}

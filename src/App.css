@@ -38,12 +38,19 @@ html {
   -ms-overlfow-style: none; 
   scrollbar-width: none;
 }
-
+@media screen and (max-width: 300px) {
+  .app {
+    height: 100%;
+    width: 100%;
+  }
+}
 @media screen and (max-width: 700px) {
   .app {
     
   }
   .app__videos {
-    height: 600px;
+    height: 100%;
+    width: 100%;
+
   }
 } 

@@ -27,8 +27,9 @@ function App() {
     // BEM
     <div className="app">
       <div className="app__videos">
-        {videos.map(({url, channel, song, description, likes, messages, shares}) => (
+        {videos.map(({id, url, channel, song, description, likes, messages, shares}) => (
           <Video
+            key={id}
             url={url}
             channel={channel}
             song={song}
